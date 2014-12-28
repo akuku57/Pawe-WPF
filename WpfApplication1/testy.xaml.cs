@@ -20,64 +20,23 @@ namespace WpfApplication1
     /// </summary>
     public partial class testy : Window
     {
-        private ObservableCollection<Butla> btl = new ObservableCollection<Butla>();
+        
         public testy()
         {
             InitializeComponent();
             this.DataContext = this;
-            btl.Add(new Butla());
-            btl.Add(new Butla());
+            ButleStored.btl.Add(new Butla());
+            ButleStored.btl.Add(new Butla());
+            //btl.Add(new Butla());
+           // btl.Add(new Butla());
 
-            Butle.ItemsSource = btl;
+            Butle.ItemsSource = ButleStored.btl;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            btl.Add(new Butla());
+            ButleStored.btl.Add(new Butla());
         }
     }
-    public class Butla : INotifyPropertyChanged
-    {
-        private static int count = 1;
-        private int id;
-        private string imie;
-        public Butla()
-        {
-            id = count;
-            count++;
-            imie = "Bogdana";
-        }
-        public int Id
-        {
-            get { return this.id; }
-            set
-            {
-                if (this.id != value)
-                {
-                    this.id = value;
-                    this.NotifyPropertyChanged("Id");
-                }
-            }
-        }
-        public string Imie
-        {
-            get { return this.imie; }
-            set
-            {
-                if (this.imie != value)
-                {
-                    this.imie = value;
-                    this.NotifyPropertyChanged("Imie");
-                }
-            }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public void NotifyPropertyChanged(string propName)
-        {
-            if (this.PropertyChanged != null)
-                this.PropertyChanged(this, new PropertyChangedEventArgs(propName));
-        }
-    }
+    
 }
