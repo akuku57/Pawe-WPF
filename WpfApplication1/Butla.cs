@@ -19,6 +19,18 @@ namespace WpfApplication1
             id = count;
             count++;
             kl = new Klient();
+            klienciStored.kls.Add(kl);
+        }
+        public Butla(Klient k)
+        {
+            id = count;
+            count++;
+            this.kl = k;
+            klienciStored.kls.Add(k);
+        }
+        public static int GetCount()
+        {
+            return count;
         }
         public int Id
         {

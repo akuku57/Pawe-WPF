@@ -77,5 +77,10 @@ namespace WpfApplication1
                                 this.PropertyChanged(this, new PropertyChangedEventArgs(propName));
                 }
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

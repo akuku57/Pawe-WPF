@@ -22,7 +22,7 @@
     <DockPanel Margin="10">
     <StackPanel Margin="10">
         <Label Content="{StaticResource ComboBoxTitle}" />
-        <ComboBox ItemsSource="{StaticResource ComboBoxItems}" />
+        <ComboBox ItemsSource="{StaticResource ComboBoxItems}" SelectionChanged="ComboBox_SelectionChanged" />
         <Label Content="_Name:" Target="{Binding ElementName=txtName}" />
         <TextBox Name="txtName" />
         <Label Content="_Mail:" Target="{Binding ElementName=txtMail}" />

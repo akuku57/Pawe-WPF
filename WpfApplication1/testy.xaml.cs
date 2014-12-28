@@ -27,8 +27,6 @@ namespace WpfApplication1
             this.DataContext = this;
             ButleStored.btl.Add(new Butla());
             ButleStored.btl.Add(new Butla());
-            //btl.Add(new Butla());
-           // btl.Add(new Butla());
 
             Butle.ItemsSource = ButleStored.btl;
         }
@@ -36,6 +34,21 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ButleStored.btl.Add(new Butla());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            logowanie log = new logowanie();
+            // Show the window
+            log.Show();
+            this.Close();
+            
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            generujbutle gent = new generujbutle();
+            gent.Show();
         }
     }
     

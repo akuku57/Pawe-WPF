@@ -15,3 +15,5 @@ C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\logowanie.b
 C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\logowanie.g.cs
 C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\testy.baml
 C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\testy.g.cs
+C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\generujbutle.baml
+C:\Users\Paweł\Desktop\TO\WpfApplication1\WpfApplication1\obj\Debug\generujbutle.g.cs

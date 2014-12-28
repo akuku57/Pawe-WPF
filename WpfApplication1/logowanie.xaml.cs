@@ -38,7 +38,7 @@ namespace WpfApplication1
                 testy tt = new testy();
                 tt.Title = "Zarządzaj";
                 tt.Show();
-                this.Hide();
+                this.Close();
             }
             else
             {

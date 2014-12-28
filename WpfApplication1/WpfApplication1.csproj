@@ -55,10 +55,18 @@
     </ApplicationDefinition>
     <Compile Include="Butla.cs" />
     <Compile Include="ButleStored.cs" />
+    <Compile Include="generujbutle.xaml.cs">
+      <DependentUpon>generujbutle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="klienciStored.cs" />
     <Compile Include="klient.cs" />
     <Compile Include="testy.xaml.cs">
       <DependentUpon>testy.xaml</DependentUpon>
     </Compile>
+    <Page Include="generujbutle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="logowanie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

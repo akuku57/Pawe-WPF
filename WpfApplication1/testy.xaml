@@ -14,10 +14,12 @@
             <RowDefinition Height="31*"/>
         </Grid.RowDefinitions>
         <Button Content="Generuj Butlę" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click" Height="28"/>
-        <Button Content="Pokaż Klientów" Grid.Column="1" HorizontalAlignment="Left" Margin="29,10,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
+        <Button Content="Pokaż Klientów" Grid.Column="2" HorizontalAlignment="Left" Margin="28,52,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
         <Button Content="Pokaż Skład Wody" Grid.Column="2" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
         <Button Content="Przewoźnicy" Grid.Column="1" HorizontalAlignment="Left" Margin="29,52,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
-        <Button Content="Transport" Grid.Column="3" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
+        <Button Content="Transport" Grid.Column="1" HorizontalAlignment="Left" Margin="29,10,0,0" VerticalAlignment="Top" Width="106" Height="28"/>
         <DataGrid HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="4" Height="259" Width="572" Name="Butle"/>
+        <Button Content="Wyloguj" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="106" Height="28" Click="Button_Click_1"/>
+        <Button Content="TEST" HorizontalAlignment="Left" Margin="21,52,0,0" VerticalAlignment="Top" Width="106" Height="28" Click="Button_Click_2"/>
     </Grid>
 </Window>
